@@ -12,6 +12,7 @@ import "../styles/CustomerHistory.css";
 // hello changes
 const downloadPDF = (customer) => {
   const doc = new jsPDF();
+  // nothing worng
   doc.setFillColor(33, 150, 243);
   doc.rect(0, 0, 210, 30, "F");
   doc.setFontSize(20);
